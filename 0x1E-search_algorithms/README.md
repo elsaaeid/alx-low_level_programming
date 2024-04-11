@@ -13,4 +13,4 @@
 <li><strong><i>Advanced binary search:</i><strong> A widely used search algorithm for finding a target value in a sorted array.the time complexity of O(log n)</li>
 </ul>
 
-<p>The search algorithms are used to search for the position (index) of value in an array and a singly linked list and returned an index and its value.</p>
+<p>The search algorithms are used to search for the position (index) of  target value for every an element in an array or  a singly linked list and returned an index and its value.</p>
