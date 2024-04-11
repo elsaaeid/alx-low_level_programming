@@ -2,14 +2,13 @@
 #include "search_algos.h"
 
 /**
- * jump_list: function that finds a value in
+ * jump_list - function that finds a value in
  * a sorted linked list using jump search
  * @list: Pointer to the head of the list to search in
  * @size: Number of nodes in the list
  * @value: Value to search for
- *
  * Return: Pointer to the first node where value is located,
- *         or NULL if value is not present or if the list is NULL
+ * or NULL if value is not present or if the list is NULL
  */
 
 listint_t *jump_list(listint_t *list, size_t size, int value)
