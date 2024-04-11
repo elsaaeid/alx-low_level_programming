@@ -2,7 +2,7 @@
 
 <hr />
 
-<p> This repository involves the best <strong>search algorithms</strong> like:</p>
+<p> This repository involves the best <strong>search algorithms in a sorted list</strong> like:</p>
 
 <ul>
 <li><strong><i>Linear Search:</i></strong>A simple search algorithm that sequentially checks each element of the data structure until a match is found or the entire structure is searched. It is commonly used for small datasets and has a time complexity of O(N).</li>
