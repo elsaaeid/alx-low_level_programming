@@ -31,8 +31,8 @@ int interpolation_search(int *array, size_t size, int value)
 			}
 			return (-1);
 		}
-		key = low + (((double)(high - low) /
-					(array[high] - array[low])) * (value - array[low]));
+		key = low + (((double)(high - low) / (array[high] - array[low])) * (value -
+					array[low]));
 		printf("Value checked array[%lu] = [%d]\n",
 				(unsigned long)key, array[key]);
 
