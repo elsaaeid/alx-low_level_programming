@@ -1,3 +1,9 @@
+/**
+ * convert a date
+ * (month and day)
+ * into the day of the year
+ */
+
 int convert_day(int month, int day) {
     int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     int day_of_year = 0;
