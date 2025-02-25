@@ -2,9 +2,9 @@
 
 /**
  * check if a number
- *  is positive,
- *  negative,
- *  or zero
+ * is positive,
+ * negative,
+ * or zero
  */
 
 void positive_or_negative(int i) {
