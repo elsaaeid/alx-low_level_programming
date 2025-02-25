@@ -2,25 +2,26 @@
 #include "main.h"
 
 /**
-* main - causes an infinite loop
+* main - entry point
 * Return: 0
 */
 
-int main(void)
-{
-	int a = 2; int b = 4; int c = 6;
+// Main function for testing
+int main() {
+    // Test positive_or_negative
+    positive_or_negative(5);
+    positive_or_negative(-3);
+    positive_or_negative(0);
 
-	printf("largest number :(\n");
-	printf(largest_number(int a, int b, int c));
+    // Test largest_number
+    printf("Largest number: %d\n", largest_number(10, 20, 15));
 
-	i = 0;
+    // Test convert_day
+    printf("Day of the year: %d\n", convert_day(3, 15));
 
-	/* while (i < 10)*/
-	/* {*/
-	/* putchar(i);*/
-	/* }*/
+    // Test print_remaining_days
+    print_remaining_days(3, 15, 2024); // Leap year example
+    print_remaining_days(3, 15, 2023); // Non-leap year example
 
-	printf("Infinite loop avoided! \\o/\n");
-
-	return (0);
+    return 0;
 }
