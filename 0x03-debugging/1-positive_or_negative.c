@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+
 // Function to check if a number is positive, negative, or zero
 void positive_or_negative(int i) {
     if (i > 0) {
