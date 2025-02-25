@@ -11,7 +11,7 @@ int main(void)
 	int a = 2; int b = 4; int c = 6;
 
 	printf("largest number :(\n");
-	printf(largest_number(int a, int b, int c);
+	printf(largest_number(int a, int b, int c));
 
 	i = 0;
 
